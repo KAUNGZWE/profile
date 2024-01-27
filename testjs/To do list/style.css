@@ -1,0 +1,94 @@
+body{
+  /* get desired background-color in Ui-gradient website */
+  background: #334d50; 
+  background: -webkit-linear-gradient(to right, #cbcaa5, #334d50);
+  background: linear-gradient(to right, #cbcaa5, #334d50);
+ text-transform: capitalize;
+}
+.heading {
+  width: 200px;
+  position: absolute;
+  top: -5%;
+  left: 45%;
+  margin-top: 100px;
+  color: #fff;
+}
+.box{
+  width: 40%;
+  min-width: 450px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 30px 40px;
+}
+#newtask{
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgb(0, 0, 0, 0.3);
+}
+#newtask input {
+  width: 70%;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid rgb(196, 195, 195);
+  padding: 12px;
+  position: relative;
+  border-radius: 5px;
+}
+#newtask input:focus {
+  outline: none;
+  border-color: #ff6c0f;
+}
+#newtask button {
+  float: right;
+  width: 20%;
+  height: 72px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff6c0f;
+  color: #fff;
+  font: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#tasks {
+  background-color: #fff;
+  box-shadow: 0 15px 30px rgb(0, 0, 0, 0, 0.3);
+  border-radius: 10px;
+  position: relative;
+  padding: 30px 20px;
+  margin-top: 30px;
+}
+.task {
+  background-color: #fff;
+  height: 50px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ff6c0f;
+  cursor: pointer;
+}
+.task span {
+  font-size: 15px;
+  font-weight: 500px;
+}
+.task button {
+  background-color: #ff6c0f;
+  color: #fff;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+.completed {
+  text-decoration: line-through;
+}
+.delete {
+  width: 40px;
+}

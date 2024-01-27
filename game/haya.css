@@ -1,0 +1,115 @@
+body, html {
+    height: 100%;
+    margin: 0;
+   
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url(https://i.pinimg.com/236x/64/6d/ae/646dae73fdd41b16a66fc491dfb81c06.jpg);
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-repeat: no-repeat;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+    overflow: hidden;
+  }
+  #hha{
+    font-family:sans-serif;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding:0px 7px;
+  }
+ 
+  
+  #home{
+    margin-left: 60px;
+    position: relative; 
+  }
+  #home:hover{
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+  }
+  .pa{
+    position: relative;
+    font-family: Georgia;
+    margin-top: 130px;
+  }
+  .pa2{
+    font-family: Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    position: relative;
+  }
+  .he{
+    text-align: start;
+    margin-left: 13px;
+    margin-top: 10px;
+    
+  }
+  #emblem{
+    width: 120px;
+    margin-top: 130px;
+
+    margin-left: 200px;  
+    
+  }
+  #item{
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 10px;  
+    
+  }
+
+  #haya{
+   
+    position: absolute;
+    width: 100%;
+    margin-top: 415px;
+    right: 15px;
+    animation-name: hayaani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+
+  @keyframes hayaani{
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(10px, 10px); }
+    100%   { transform: translate(0, 0px); }
+
+
+  }
